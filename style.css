@@ -1,0 +1,124 @@
+* { margin: 0; padding: 5; outline: 5 }
+
+html {
+ height: 100%;
+ margin: 0px;
+ }   
+    
+body {
+         margin: 0px;
+         padding: 15px;
+         background: #ecf0f1;
+         font: 17px Palatino Linotype, Book Antiqua, Palatino, verdana, geneva, sans-serif;
+         color: #606060; 
+         height: 100%;
+}
+
+header {
+   background: #55C34D;
+   width: 100%; 
+   border-bottom: 1px solid #7f8c8d;
+   margin: 0px;
+   padding: 0px;
+  }
+
+/* links */ 
+a, a:visited {
+         margin: 3px;
+         padding: 1px 5px;
+	       text-decoration: none;
+	       color: #00a000;
+         }
+
+a:hover {
+         margin: 3px;
+         padding:  1px 5px;
+	       color: #8e44ad;
+         text-decoration: none;
+}  
+  
+  
+
+.formi {
+  max-width: 370px;
+  margin: 10px 30px 400px 30px;
+  float: left;
+}
+.area {
+		width: 120px;
+		height:15px;
+		padding: 5px;
+		margin: 10px 0px 5px 0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:13px;
+		line-height:14px;
+		border: 1px solid #ccc;
+     
+	}
+.area2 {
+		width: 96%;
+		height:15px;
+		padding: 5px;
+		margin: 10px 0px 5px 0px;
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size:13px;
+		line-height:14px;
+		border: 1px solid #ccc;
+     
+	}
+  .search {
+  display: inline-block;
+  width: 100%;
+  font-size: 80%;
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.1;
+  white-space: pre-line;
+  padding: .7em 0;
+  border: 1px solid;
+  border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+  border-radius: 1px;
+  outline: none;
+  background: #2980b9;
+  box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+
+}
+.search:hover {
+  color: rgb(255,255,255);
+  background: #3498db;
+}
+
+.search:active {
+  color: rgb(255,255,255);
+  border-color: #2970a9;
+  background: #2ecc71;
+  box-shadow: none;
+}
+
+form div {
+  padding: 0px;
+	margin: 10px 0px 15px 0px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px 30px;
+
+}
+h2 {
+  color: #ff0000;
+  font-family: 'Arial';
+  font-size: 25px;
+  padding: 10px 30px;
+
+}
+h3 {
+  color: #ff6600;
+  font-family: 'Arial';
+  font-size: 20px;
+  padding: 10px 30px;
+
+}
